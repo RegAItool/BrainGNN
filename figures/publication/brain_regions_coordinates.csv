@@ -1,0 +1,15 @@
+Region,Network,Hemisphere,MNI_X,MNI_Y,MNI_Z,Activation,Description
+Cerebelum_Crus1_R,Sensorimotor Integration,R,28,-77,-33,0.601,Primary sensorimotor integration
+Cerebelum_Crus1_L,Sensorimotor Integration,L,-28,-77,-33,0.438,Bilateral cerebellar coordination
+Occipital_Mid_R,Visual-Spatial Processing,R,31,-87,11,0.528,Visual-spatial pain localization
+Occipital_Sup_R,Visual-Spatial Processing,R,20,-93,15,0.528,Enhanced visual attention
+Occipital_Mid_L,Visual-Spatial Processing,L,-31,-87,11,0.385,Bilateral visual processing
+ParaHippocampal_L,Limbic Processing,L,-24,-7,-21,0.12,Pain memory encoding
+Amygdala_R,Limbic Processing,R,25,-1,-20,0.08,Emotional pain response
+Frontal_Sup_L,Executive Control,L,-15,26,56,-0.512,Top-down cognitive control
+Frontal_Mid_L,Executive Control,L,-30,47,28,-0.498,Executive function regulation
+Precentral_L,Motor Control,L,-39,-6,52,-0.433,Motor cortex inhibition
+Postcentral_L,Somatosensory Processing,L,-43,-25,49,-0.431,Sensory cortex regulation
+Rolandic_Oper_L,Sensorimotor Integration,L,-50,0,9,-0.401,Sensorimotor integration
+Frontal_Sup_R,Executive Control,R,15,26,56,-0.394,Bilateral cognitive control
+Putamen_R,Subcortical Modulation,R,26,6,0,-0.386,Motor regulation suppression

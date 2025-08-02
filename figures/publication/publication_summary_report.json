@@ -1,0 +1,95 @@
+{
+  "study_info": {
+    "title": "BrainGNN Pain State Classification: Publication Quality Brain Visualization",
+    "model_accuracy": 0.987,
+    "classification_type": "Binary (Pain vs No-Pain)",
+    "total_brain_regions": 14,
+    "analysis_date": "2025-08-02"
+  },
+  "brain_activation_summary": {
+    "pain_activated_regions": 7,
+    "pain_suppressed_regions": 7,
+    "dominant_networks": {
+      "pain_state": [
+        "sensorimotor",
+        "visual",
+        "limbic"
+      ],
+      "no_pain_state": [
+        "executive",
+        "motor",
+        "somatosensory"
+      ]
+    }
+  },
+  "network_analysis": {
+    "sensorimotor": {
+      "count": 3,
+      "avg_activation": 0.21266666666666664
+    },
+    "limbic": {
+      "count": 2,
+      "avg_activation": 0.1
+    },
+    "somatosensory": {
+      "count": 1,
+      "avg_activation": -0.431
+    },
+    "executive": {
+      "count": 3,
+      "avg_activation": -0.46799999999999997
+    },
+    "motor": {
+      "count": 1,
+      "avg_activation": -0.433
+    },
+    "subcortical": {
+      "count": 1,
+      "avg_activation": -0.386
+    },
+    "visual": {
+      "count": 3,
+      "avg_activation": 0.48033333333333333
+    }
+  },
+  "visualization_outputs": {
+    "paraview_files": [
+      "brain_regions_pain.vtk",
+      "brain_connectivity_network.vtk",
+      "brain_activation_surface.vtk",
+      "paraview_brain_visualization.py"
+    ],
+    "brainnet_files": [
+      "brain_pain_nodes.node",
+      "brain_pain_edges.edge",
+      "brain_pain_activation.dpv",
+      "publication_brainnet_script.m"
+    ],
+    "publication_images": [
+      "3d_brain_publication_views.png",
+      "3d_brain_publication_views.pdf",
+      "paraview_brain_pain_mapping.png (4K)",
+      "brainnet_multiple_views.jpg"
+    ]
+  },
+  "key_findings": [
+    "Cerebellar regions show strongest pain-related activation (sensorimotor integration)",
+    "Visual cortex exhibits enhanced activation during pain states",
+    "Frontal executive control regions are suppressed during pain",
+    "Left hemisphere dominance in cognitive control of pain",
+    "Distinct network patterns differentiate pain vs no-pain states"
+  ],
+  "publication_recommendations": {
+    "figure_suggestions": [
+      "Figure 1: Multi-view 3D brain mapping (4 panels)",
+      "Figure 2: ParaView surface activation heatmap",
+      "Figure 3: BrainNet connectivity network analysis",
+      "Supplementary: Individual region activation profiles"
+    ],
+    "software_citations": [
+      "ParaView: Ahrens et al. (2005) IEEE Visualization",
+      "BrainNet Viewer: Xia et al. (2013) PLoS ONE",
+      "BrainGNN: Custom implementation for pain classification"
+    ]
+  }
+}

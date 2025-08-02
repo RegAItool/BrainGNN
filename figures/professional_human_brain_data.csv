@@ -1,0 +1,15 @@
+Region_Name,MNI_X_mm,MNI_Y_mm,MNI_Z_mm,Pain_Activation_Score,Activation_Type,Brain_Hemisphere,Brain_Lobe,Neural_Network,Brodmann_Area,Volume_mm3,Functional_Description,Activation_Magnitude,Clinical_Significance
+Cerebelum_Crus1_R,28,-77,-33,0.601,Enhanced,R,Cerebellum,Sensorimotor,Subcortical,1245,Primary sensorimotor integration,0.601,High
+Cerebelum_Crus1_L,-28,-77,-33,0.438,Enhanced,L,Cerebellum,Sensorimotor,Subcortical,1189,Bilateral cerebellar coordination,0.438,High
+Occipital_Mid_R,31,-87,11,0.528,Enhanced,R,Occipital,Visual,BA19,2340,Visual-spatial pain processing,0.528,High
+Occipital_Sup_R,20,-93,15,0.528,Enhanced,R,Occipital,Visual,BA19,1876,Enhanced visual attention,0.528,High
+Occipital_Mid_L,-31,-87,11,0.385,Enhanced,L,Occipital,Visual,BA19,2298,Bilateral visual processing,0.385,Moderate
+ParaHippocampal_L,-24,-7,-21,0.12,Enhanced,L,Temporal,Limbic,BA36,876,Pain memory encoding,0.12,Low
+Amygdala_R,25,-1,-20,0.08,Enhanced,R,Temporal,Limbic,Subcortical,1523,Emotional pain response,0.08,Low
+Frontal_Sup_L,-15,26,56,-0.512,Suppressed,L,Frontal,Executive,BA8,3456,Top-down cognitive control,0.512,High
+Frontal_Mid_L,-30,47,28,-0.498,Suppressed,L,Frontal,Executive,BA10,2987,Executive function regulation,0.498,High
+Precentral_L,-39,-6,52,-0.433,Suppressed,L,Frontal,Motor,BA4,4567,Motor cortex inhibition,0.433,High
+Postcentral_L,-43,-25,49,-0.431,Suppressed,L,Parietal,Somatosensory,BA3,3789,Sensory cortex regulation,0.431,High
+Rolandic_Oper_L,-50,0,9,-0.401,Suppressed,L,Frontal,Sensorimotor,BA44,1654,Sensorimotor integration,0.401,High
+Frontal_Sup_R,15,26,56,-0.394,Suppressed,R,Frontal,Executive,BA8,3521,Bilateral cognitive control,0.394,Moderate
+Putamen_R,26,6,0,-0.386,Suppressed,R,Subcortical,Subcortical,Subcortical,2134,Motor regulation suppression,0.386,Moderate

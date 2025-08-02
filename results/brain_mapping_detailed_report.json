@@ -1,0 +1,375 @@
+{
+  "analysis_timestamp": "2025-08-01T23:05:50.613233",
+  "model_performance": {
+    "accuracy": 0.987,
+    "f1_score": 0.981,
+    "target_exceeded": true
+  },
+  "brain_regions_analyzed": 26,
+  "pain_networks_identified": 6,
+  "key_findings": {
+    "strongest_enhancement": "Cerebelum_Crus1_R (+0.601)",
+    "strongest_suppression": "Frontal_Sup_L (-0.512)",
+    "most_important_region": "Cerebelum_Crus1_R (importance: 0.022)",
+    "network_pattern": "Dual regulation: enhancement + suppression"
+  },
+  "clinical_implications": [
+    "小脑在疼痛感觉运动整合中起核心作用",
+    "前额叶皮层提供认知性疼痛控制",
+    "视觉皮层参与疼痛的空间注意机制",
+    "感觉运动皮层表现出复杂的双向调节"
+  ],
+  "detailed_regions": {
+    "Cerebelum_Crus1_R": {
+      "pos": [
+        45,
+        -75
+      ],
+      "size": 15,
+      "network": "cerebellum",
+      "activation": 0.601,
+      "type": "enhanced",
+      "importance": 0.022
+    },
+    "Cerebelum_Crus1_L": {
+      "pos": [
+        -45,
+        -75
+      ],
+      "size": 12,
+      "network": "cerebellum",
+      "activation": 0.438,
+      "type": "enhanced",
+      "importance": 0.016
+    },
+    "Occipital_Mid_R": {
+      "pos": [
+        35,
+        -85
+      ],
+      "size": 14,
+      "network": "visual",
+      "activation": 0.528,
+      "type": "enhanced",
+      "importance": 0.022
+    },
+    "Occipital_Sup_R": {
+      "pos": [
+        25,
+        -95
+      ],
+      "size": 13,
+      "network": "visual",
+      "activation": 0.528,
+      "type": "enhanced",
+      "importance": 0.022
+    },
+    "Occipital_Mid_L": {
+      "pos": [
+        -35,
+        -85
+      ],
+      "size": 11,
+      "network": "visual",
+      "activation": 0.385,
+      "type": "enhanced",
+      "importance": 0.016
+    },
+    "Occipital_Inf_R": {
+      "pos": [
+        40,
+        -75
+      ],
+      "size": 12,
+      "network": "visual",
+      "activation": 0.443,
+      "type": "enhanced",
+      "importance": 0.015
+    },
+    "Cerebelum_Crus2_R": {
+      "pos": [
+        50,
+        -70
+      ],
+      "size": 10,
+      "network": "cerebellum",
+      "activation": 0.391,
+      "type": "enhanced",
+      "importance": 0.014
+    },
+    "Cerebelum_6_R": {
+      "pos": [
+        20,
+        -70
+      ],
+      "size": 9,
+      "network": "cerebellum",
+      "activation": 0.386,
+      "type": "enhanced",
+      "importance": 0.013
+    },
+    "Cerebelum_7b_R": {
+      "pos": [
+        35,
+        -65
+      ],
+      "size": 8,
+      "network": "cerebellum",
+      "activation": 0.365,
+      "type": "enhanced",
+      "importance": 0.011
+    },
+    "Temporal_Inf_R": {
+      "pos": [
+        55,
+        -45
+      ],
+      "size": 10,
+      "network": "temporal",
+      "activation": 0.424,
+      "type": "enhanced",
+      "importance": 0.012
+    },
+    "Frontal_Sup_L": {
+      "pos": [
+        -25,
+        65
+      ],
+      "size": 13,
+      "network": "frontal",
+      "activation": -0.512,
+      "type": "suppressed",
+      "importance": 0.015
+    },
+    "Frontal_Mid_L": {
+      "pos": [
+        -45,
+        35
+      ],
+      "size": 12,
+      "network": "frontal",
+      "activation": -0.498,
+      "type": "suppressed",
+      "importance": 0.014
+    },
+    "Precentral_L": {
+      "pos": [
+        -35,
+        20
+      ],
+      "size": 11,
+      "network": "sensorimotor",
+      "activation": -0.433,
+      "type": "suppressed",
+      "importance": 0.013
+    },
+    "Postcentral_L": {
+      "pos": [
+        -35,
+        -25
+      ],
+      "size": 11,
+      "network": "sensorimotor",
+      "activation": -0.431,
+      "type": "suppressed",
+      "importance": 0.012
+    },
+    "Rolandic_Oper_L": {
+      "pos": [
+        -50,
+        10
+      ],
+      "size": 10,
+      "network": "sensorimotor",
+      "activation": -0.401,
+      "type": "suppressed",
+      "importance": 0.019
+    },
+    "Frontal_Sup_R": {
+      "pos": [
+        25,
+        65
+      ],
+      "size": 10,
+      "network": "frontal",
+      "activation": -0.394,
+      "type": "suppressed",
+      "importance": 0.011
+    },
+    "Cingulum_Mid_R": {
+      "pos": [
+        8,
+        -5
+      ],
+      "size": 9,
+      "network": "limbic",
+      "activation": -0.388,
+      "type": "suppressed",
+      "importance": 0.01
+    },
+    "Temporal_Sup_L": {
+      "pos": [
+        -55,
+        -15
+      ],
+      "size": 9,
+      "network": "temporal",
+      "activation": -0.389,
+      "type": "suppressed",
+      "importance": 0.014
+    },
+    "Putamen_R": {
+      "pos": [
+        25,
+        5
+      ],
+      "size": 8,
+      "network": "subcortical",
+      "activation": -0.386,
+      "type": "suppressed",
+      "importance": 0.009
+    },
+    "Paracentral_Lobule_R": {
+      "pos": [
+        15,
+        -10
+      ],
+      "size": 8,
+      "network": "sensorimotor",
+      "activation": -0.391,
+      "type": "suppressed",
+      "importance": 0.015
+    },
+    "Parietal_Sup_L": {
+      "pos": [
+        -25,
+        -50
+      ],
+      "size": 12,
+      "network": "parietal",
+      "activation": 0.15,
+      "type": "enhanced",
+      "importance": 0.02
+    },
+    "ParaHippocampal_L": {
+      "pos": [
+        -25,
+        -35
+      ],
+      "size": 10,
+      "network": "limbic",
+      "activation": 0.12,
+      "type": "enhanced",
+      "importance": 0.019
+    },
+    "Amygdala_R": {
+      "pos": [
+        20,
+        -5
+      ],
+      "size": 8,
+      "network": "limbic",
+      "activation": 0.08,
+      "type": "enhanced",
+      "importance": 0.015
+    },
+    "Cingulum_Ant_R": {
+      "pos": [
+        8,
+        35
+      ],
+      "size": 9,
+      "network": "limbic",
+      "activation": 0.065,
+      "type": "enhanced",
+      "importance": 0.013
+    },
+    "Thalamus_L": {
+      "pos": [
+        -12,
+        -15
+      ],
+      "size": 8,
+      "network": "subcortical",
+      "activation": 0.055,
+      "type": "enhanced",
+      "importance": 0.011
+    },
+    "Pallidum_L": {
+      "pos": [
+        -20,
+        0
+      ],
+      "size": 7,
+      "network": "subcortical",
+      "activation": 0.045,
+      "type": "enhanced",
+      "importance": 0.016
+    }
+  },
+  "network_definitions": {
+    "nociceptive_enhancement": {
+      "name": "伤害性信号增强网络",
+      "regions": [
+        "Cerebelum_Crus1_R",
+        "Cerebelum_Crus1_L",
+        "Cerebelum_Crus2_R"
+      ],
+      "color": "#FF4444",
+      "description": "小脑网络负责疼痛信号的感觉运动整合"
+    },
+    "visual_processing": {
+      "name": "视觉-空间处理网络",
+      "regions": [
+        "Occipital_Mid_R",
+        "Occipital_Sup_R",
+        "Occipital_Mid_L",
+        "Occipital_Inf_R"
+      ],
+      "color": "#FF6666",
+      "description": "视觉皮层参与疼痛的空间定位和注意"
+    },
+    "cognitive_control": {
+      "name": "认知控制抑制网络",
+      "regions": [
+        "Frontal_Sup_L",
+        "Frontal_Mid_L",
+        "Frontal_Sup_R"
+      ],
+      "color": "#4444FF",
+      "description": "前额叶皮层的下行抑制控制"
+    },
+    "sensorimotor_regulation": {
+      "name": "感觉运动调节网络",
+      "regions": [
+        "Precentral_L",
+        "Postcentral_L",
+        "Rolandic_Oper_L",
+        "Paracentral_Lobule_R"
+      ],
+      "color": "#6666FF",
+      "description": "感觉运动皮层的双向调节"
+    },
+    "limbic_emotional": {
+      "name": "边缘情绪网络",
+      "regions": [
+        "Amygdala_R",
+        "Cingulum_Ant_R",
+        "Cingulum_Mid_R",
+        "ParaHippocampal_L"
+      ],
+      "color": "#AA44AA",
+      "description": "边缘系统的情绪和记忆处理"
+    },
+    "subcortical_modulation": {
+      "name": "皮层下调节网络",
+      "regions": [
+        "Thalamus_L",
+        "Putamen_R",
+        "Pallidum_L"
+      ],
+      "color": "#44AA44",
+      "description": "皮层下结构的疼痛调节"
+    }
+  }
+}

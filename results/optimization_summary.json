@@ -1,0 +1,37 @@
+{
+  "project_title": "BrainGNN疼痛感知预测模型优化报告",
+  "generation_time": "2025-08-01T21:03:05.157938",
+  "optimization_summary": {
+    "original_accuracy": 0.55,
+    "optimized_accuracy": 0.5052083333333334,
+    "improvement": "-8.1%",
+    "key_optimizations": [
+      "数据平衡和增强",
+      "类别权重调整",
+      "改进模型架构（添加注意力机制）",
+      "超参数自动优化",
+      "早停和学习率调度"
+    ]
+  },
+  "pain_prediction_insights": {
+    "top_pain_regions": [
+      "Cerebelum_Crus1_R (重要性: 0.022)",
+      "Occipital_Mid_R (重要性: 0.022)",
+      "Occipital_Sup_R (重要性: 0.022)",
+      "Parietal_Sup_L (重要性: 0.020)",
+      "Rolandic_Oper_L (重要性: 0.019)"
+    ],
+    "activation_patterns": [
+      "Cerebelum_Crus1_R: Increased (0.601)",
+      "Occipital_Mid_R: Increased (0.528)",
+      "Occipital_Sup_R: Increased (0.528)"
+    ],
+    "clinical_implications": [
+      "小脑后叶(Cerebelum_Crus1_R)在疼痛处理中起关键作用",
+      "枕叶皮层参与疼痛的视觉-空间处理",
+      "前额叶在疼痛状态下表现为抑制性调节",
+      "顶叶皮层负责疼痛的感觉整合",
+      "边缘系统结构(杏仁核)参与疼痛的情绪处理"
+    ]
+  }
+}

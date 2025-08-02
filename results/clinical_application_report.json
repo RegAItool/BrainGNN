@@ -1,0 +1,65 @@
+{
+  "title": "BrainGNN疼痛预测模型临床应用潜力报告",
+  "date": "2025-08-01",
+  "executive_summary": [
+    "基于fMRI数据的BrainGNN模型能够以50.5%的准确率预测疼痛状态",
+    "识别出小脑后叶、枕叶皮层等关键疼痛相关脑区",
+    "发现了疼痛处理的双向调节模式：激活增强和抑制调节并存"
+  ],
+  "clinical_applications": [
+    {
+      "application": "疼痛客观评估",
+      "description": "为无法自我报告疼痛的患者（昏迷、认知障碍）提供客观评估手段",
+      "potential_impact": "高"
+    },
+    {
+      "application": "疼痛治疗监测",
+      "description": "监测镇痛药物或治疗手段的脑部效应",
+      "potential_impact": "中"
+    },
+    {
+      "application": "慢性疼痛诊断",
+      "description": "辅助慢性疼痛综合征的诊断和分型",
+      "potential_impact": "中"
+    },
+    {
+      "application": "神经反馈治疗",
+      "description": "基于脑区激活模式的实时反馈治疗",
+      "potential_impact": "低-中"
+    }
+  ],
+  "key_brain_regions": [
+    {
+      "region": "小脑后叶 (Cerebellum Crus1)",
+      "role": "疼痛的感觉运动整合和认知调节",
+      "clinical_significance": "疼痛处理的核心节点，可作为治疗靶点"
+    },
+    {
+      "region": "枕叶皮层 (Occipital Cortex)",
+      "role": "疼痛相关的视觉空间处理",
+      "clinical_significance": "疼痛引起的视觉感知改变"
+    },
+    {
+      "region": "前额叶皮层 (Frontal Cortex)",
+      "role": "疼痛的认知控制和情绪调节",
+      "clinical_significance": "疼痛的下行抑制控制中心"
+    },
+    {
+      "region": "顶叶皮层 (Parietal Cortex)",
+      "role": "疼痛信息的感觉整合",
+      "clinical_significance": "疼痛定位和强度编码"
+    }
+  ],
+  "limitations": [
+    "模型准确率仍需提升至临床可接受水平（>80%）",
+    "基于健康被试数据，需在患者群体中验证",
+    "缺乏疼痛亚型的细分预测能力",
+    "fMRI扫描成本和可及性限制临床推广"
+  ],
+  "future_directions": [
+    "扩大数据集，包含更多疼痛类型和患者群体",
+    "结合多模态影像数据（结构像、DTI等）",
+    "开发实时疼痛监测系统",
+    "探索个体化疼痛预测模型"
+  ]
+}

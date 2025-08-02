@@ -1,0 +1,11 @@
+ID,Node1,Node2,X1,Y1,Z1,X2,Y2,Z2,Strength,Network
+0,Cerebelum_Crus1_R,Cerebelum_Crus1_L,28,-77,-33,-28,-77,-33,0.837,Sensorimotor
+1,Cerebelum_Crus1_R,Rolandic_Oper_L,28,-77,-33,-50,0,9,-0.0020000000000000018,Sensorimotor
+2,Cerebelum_Crus1_L,Rolandic_Oper_L,-28,-77,-33,-50,0,9,0.16100000000000003,Sensorimotor
+3,Occipital_Mid_R,Occipital_Sup_R,31,-87,11,20,-93,15,1.0,Visual
+4,Occipital_Mid_R,Occipital_Mid_L,31,-87,11,-31,-87,11,0.857,Visual
+5,Occipital_Sup_R,Occipital_Mid_L,20,-93,15,-31,-87,11,0.857,Visual
+6,ParaHippocampal_L,Amygdala_R,-24,-7,-21,25,-1,-20,0.96,Limbic
+7,Frontal_Sup_L,Frontal_Mid_L,-15,26,56,-30,47,28,0.986,Executive
+8,Frontal_Sup_L,Frontal_Sup_R,-15,26,56,15,26,56,0.882,Executive
+9,Frontal_Mid_L,Frontal_Sup_R,-30,47,28,15,26,56,0.896,Executive

@@ -1,0 +1,206 @@
+{
+  "timestamp": "2025-08-01T23:05:39.884334",
+  "summary": {
+    "total_regions": 20,
+    "enhanced_regions": 10,
+    "suppressed_regions": 10,
+    "enhancement_ratio": 0.5,
+    "suppression_ratio": 0.5
+  },
+  "top_enhanced_regions": [
+    {
+      "region_name": "Cerebelum_Crus1_R",
+      "activation_diff": 0.6005605459213257,
+      "pain_activation": -0.0270214583724737,
+      "nopain_activation": -0.6275820136070251
+    },
+    {
+      "region_name": "Occipital_Mid_R",
+      "activation_diff": 0.5282397866249084,
+      "pain_activation": 0.0133624337613582,
+      "nopain_activation": -0.5148773789405823
+    },
+    {
+      "region_name": "Occipital_Sup_R",
+      "activation_diff": 0.5276927351951599,
+      "pain_activation": 0.0373475961387157,
+      "nopain_activation": -0.4903451204299927
+    },
+    {
+      "region_name": "Occipital_Inf_R",
+      "activation_diff": 0.4428603947162628,
+      "pain_activation": -0.0686659514904022,
+      "nopain_activation": -0.511526346206665
+    },
+    {
+      "region_name": "Cerebelum_Crus1_L",
+      "activation_diff": 0.4377706050872803,
+      "pain_activation": -0.0643219873309135,
+      "nopain_activation": -0.5020925998687744
+    },
+    {
+      "region_name": "Temporal_Inf_R",
+      "activation_diff": 0.4241650700569153,
+      "pain_activation": -0.130030944943428,
+      "nopain_activation": -0.5541960000991821
+    },
+    {
+      "region_name": "Cerebelum_Crus2_R",
+      "activation_diff": 0.3911242485046386,
+      "pain_activation": -0.0477402508258819,
+      "nopain_activation": -0.4388644993305206
+    },
+    {
+      "region_name": "Cerebelum_8_R",
+      "activation_diff": 0.3872800171375274,
+      "pain_activation": -0.0256997309625148,
+      "nopain_activation": -0.4129797518253326
+    },
+    {
+      "region_name": "Cerebelum_6_R",
+      "activation_diff": 0.3858815431594848,
+      "pain_activation": 0.0170629825443029,
+      "nopain_activation": -0.3688185513019562
+    },
+    {
+      "region_name": "Cerebelum_7b_R",
+      "activation_diff": 0.3648542165756225,
+      "pain_activation": -0.0234073679894208,
+      "nopain_activation": -0.3882615864276886
+    }
+  ],
+  "top_suppressed_regions": [
+    {
+      "region_name": "Frontal_Sup_L",
+      "activation_diff": -0.5124790668487549,
+      "pain_activation": 0.0013091447763144,
+      "nopain_activation": 0.5137882232666016
+    },
+    {
+      "region_name": "Frontal_Mid_L",
+      "activation_diff": -0.4979922771453857,
+      "pain_activation": 0.0026771354023367,
+      "nopain_activation": 0.5006694197654724
+    },
+    {
+      "region_name": "Precentral_L",
+      "activation_diff": -0.4329859614372253,
+      "pain_activation": 0.0177996717393398,
+      "nopain_activation": 0.4507856369018554
+    },
+    {
+      "region_name": "Postcentral_L",
+      "activation_diff": -0.4313841462135315,
+      "pain_activation": -0.0186805874109268,
+      "nopain_activation": 0.4127035439014435
+    },
+    {
+      "region_name": "Rolandic_Oper_L",
+      "activation_diff": -0.400685042142868,
+      "pain_activation": -0.0171250142157077,
+      "nopain_activation": 0.3835600316524505
+    },
+    {
+      "region_name": "Frontal_Sup_R",
+      "activation_diff": -0.3941651880741119,
+      "pain_activation": 0.0457849279046058,
+      "nopain_activation": 0.4399501085281372
+    },
+    {
+      "region_name": "Paracentral_Lobule_R",
+      "activation_diff": -0.3912346959114074,
+      "pain_activation": -0.0536374486982822,
+      "nopain_activation": 0.3375972509384155
+    },
+    {
+      "region_name": "Temporal_Sup_L",
+      "activation_diff": -0.3891985118389129,
+      "pain_activation": -0.0718769654631614,
+      "nopain_activation": 0.3173215389251709
+    },
+    {
+      "region_name": "Cingulum_Mid_R",
+      "activation_diff": -0.387562096118927,
+      "pain_activation": -0.0458214804530143,
+      "nopain_activation": 0.341740608215332
+    },
+    {
+      "region_name": "Putamen_R",
+      "activation_diff": -0.38603475689888,
+      "pain_activation": -0.1462720483541488,
+      "nopain_activation": 0.2397627085447311
+    }
+  ],
+  "network_analysis": {
+    "cerebellum": {
+      "total_regions": 6,
+      "enhanced_count": 6,
+      "suppressed_count": 0,
+      "enhancement_ratio": 1.0,
+      "suppression_ratio": 0.0,
+      "avg_enhancement": 0.4279118627309799,
+      "avg_suppression": 0.0,
+      "net_activation": 0.4279118627309799
+    },
+    "occipital": {
+      "total_regions": 3,
+      "enhanced_count": 3,
+      "suppressed_count": 0,
+      "enhancement_ratio": 1.0,
+      "suppression_ratio": 0.0,
+      "avg_enhancement": 0.4995976388454437,
+      "avg_suppression": 0.0,
+      "net_activation": 0.4995976388454437
+    },
+    "frontal": {
+      "total_regions": 3,
+      "enhanced_count": 0,
+      "suppressed_count": 3,
+      "enhancement_ratio": 0.0,
+      "suppression_ratio": 1.0,
+      "avg_enhancement": 0.0,
+      "avg_suppression": -0.46821217735608417,
+      "net_activation": -0.46821217735608417
+    },
+    "sensorimotor": {
+      "total_regions": 3,
+      "enhanced_count": 0,
+      "suppressed_count": 3,
+      "enhancement_ratio": 0.0,
+      "suppression_ratio": 1.0,
+      "avg_enhancement": 0.0,
+      "avg_suppression": -0.4216850499312083,
+      "net_activation": -0.4216850499312083
+    },
+    "temporal": {
+      "total_regions": 2,
+      "enhanced_count": 1,
+      "suppressed_count": 1,
+      "enhancement_ratio": 0.5,
+      "suppression_ratio": 0.5,
+      "avg_enhancement": 0.4241650700569153,
+      "avg_suppression": -0.3891985118389129,
+      "net_activation": 0.034966558218002375
+    },
+    "limbic": {
+      "total_regions": 1,
+      "enhanced_count": 0,
+      "suppressed_count": 1,
+      "enhancement_ratio": 0.0,
+      "suppression_ratio": 1.0,
+      "avg_enhancement": 0.0,
+      "avg_suppression": -0.387562096118927,
+      "net_activation": -0.387562096118927
+    },
+    "subcortical": {
+      "total_regions": 1,
+      "enhanced_count": 0,
+      "suppressed_count": 1,
+      "enhancement_ratio": 0.0,
+      "suppression_ratio": 1.0,
+      "avg_enhancement": 0.0,
+      "avg_suppression": -0.38603475689888,
+      "net_activation": -0.38603475689888
+    }
+  }
+}

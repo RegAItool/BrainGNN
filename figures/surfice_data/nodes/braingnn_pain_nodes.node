@@ -1,0 +1,16 @@
+// BrainGNN Pain State Classification Nodes
+// Format: X Y Z Color Size Label
+28.0 -77.0 -33.0 1 8.0 Cerebelum_Crus1_R
+-28.0 -77.0 -33.0 1 6.4 Cerebelum_Crus1_L
+31.0 -87.0 11.0 1 7.3 Occipital_Mid_R
+20.0 -93.0 15.0 1 7.3 Occipital_Sup_R
+-31.0 -87.0 11.0 1 5.8 Occipital_Mid_L
+-24.0 -7.0 -21.0 1 3.2 ParaHippocampal_L
+25.0 -1.0 -20.0 1 2.8 Amygdala_R
+-15.0 26.0 56.0 2 7.1 Frontal_Sup_L
+-30.0 47.0 28.0 2 7.0 Frontal_Mid_L
+-39.0 -6.0 52.0 2 6.3 Precentral_L
+-43.0 -25.0 49.0 2 6.3 Postcentral_L
+-50.0 0.0 9.0 2 6.0 Rolandic_Oper_L
+15.0 26.0 56.0 2 5.9 Frontal_Sup_R
+26.0 6.0 0.0 2 5.9 Putamen_R

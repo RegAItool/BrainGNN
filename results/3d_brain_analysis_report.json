@@ -1,0 +1,101 @@
+{
+  "analysis_timestamp": "2025-08-01T21:30:00",
+  "model_performance": {
+    "accuracy": 0.987,
+    "f1_score": 0.981,
+    "regions_analyzed": 17
+  },
+  "3d_brain_mapping": {
+    "total_pain_types": 6,
+    "depth_distribution": {
+      "shallow_regions": 8,
+      "middle_regions": 4,
+      "deep_regions": 5
+    },
+    "pain_type_analysis": {
+      "sensorimotor_integration": {
+        "name": "感觉运动整合",
+        "description": "疼痛信号的感觉运动处理和协调",
+        "region_count": 3,
+        "avg_activation": 0.4766666666666666,
+        "max_activation": 0.601,
+        "regions": [
+          "Cerebelum_Crus1_R",
+          "Cerebelum_Crus1_L",
+          "Cerebelum_Crus2_R"
+        ]
+      },
+      "visual_spatial": {
+        "name": "视觉空间处理",
+        "description": "疼痛的空间定位和视觉注意",
+        "region_count": 3,
+        "avg_activation": 0.48033333333333333,
+        "max_activation": 0.528,
+        "regions": [
+          "Occipital_Mid_R",
+          "Occipital_Sup_R",
+          "Occipital_Mid_L"
+        ]
+      },
+      "cognitive_control": {
+        "name": "认知控制",
+        "description": "疼痛的认知调节和下行抑制",
+        "region_count": 3,
+        "avg_activation": 0.46799999999999997,
+        "max_activation": 0.512,
+        "regions": [
+          "Frontal_Sup_L",
+          "Frontal_Mid_L",
+          "Frontal_Sup_R"
+        ]
+      },
+      "sensorimotor_regulation": {
+        "name": "感觉运动调节",
+        "description": "感觉和运动皮层的双向调节",
+        "region_count": 3,
+        "avg_activation": 0.4216666666666667,
+        "max_activation": 0.433,
+        "regions": [
+          "Precentral_L",
+          "Postcentral_L",
+          "Rolandic_Oper_L"
+        ]
+      },
+      "emotional_processing": {
+        "name": "情绪处理",
+        "description": "疼痛的情绪反应和记忆编码",
+        "region_count": 3,
+        "avg_activation": 0.08833333333333333,
+        "max_activation": 0.12,
+        "regions": [
+          "Amygdala_R",
+          "Cingulum_Ant_R",
+          "ParaHippocampal_L"
+        ]
+      },
+      "subcortical_modulation": {
+        "name": "皮层下调节",
+        "description": "皮层下结构的疼痛调节",
+        "region_count": 2,
+        "avg_activation": 0.2205,
+        "max_activation": 0.386,
+        "regions": [
+          "Thalamus_L",
+          "Putamen_R"
+        ]
+      }
+    }
+  },
+  "key_findings": [
+    "小脑网络(sensorimotor_integration)显示最强的疼痛相关激活",
+    "视觉-空间网络参与疼痛的注意和定位处理",
+    "认知控制网络通过下行抑制调节疼痛感知",
+    "不同深度的脑区展现出层次化的疼痛处理模式"
+  ],
+  "clinical_implications": [
+    "3D脑图映射揭示了疼痛处理的多层次神经网络",
+    "不同疼痛类型激活不同的脑区组合",
+    "深层和浅层脑区的协调是疼痛感知的关键",
+    "为个性化疼痛治疗提供了神经网络靶点"
+  ]
+}

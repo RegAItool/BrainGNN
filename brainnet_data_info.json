@@ -1,0 +1,19 @@
+{
+  "node_file": "bridge_nodes.node",
+  "edge_file": "bridge_edges.edge",
+  "roi_count": 100,
+  "top_rois": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "max_importance": 0.5573214888572693,
+  "mean_importance": 0.5549120903015137
+}

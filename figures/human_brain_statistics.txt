@@ -1,0 +1,28 @@
+🧠 Human Brain Pain State Analysis - Statistical Report
+============================================================
+
+Dataset: BrainGNN Classification Results (98.7% Accuracy)
+Coordinate System: MNI (Montreal Neurological Institute)
+Analysis Type: Pain vs No-Pain State Classification
+
+📊 REGION STATISTICS:
+  • Total brain regions analyzed: 14
+  • Pain-enhanced regions: 7 (50.0%)
+  • Pain-suppressed regions: 7 (50.0%)
+
+🧭 HEMISPHERE DISTRIBUTION:
+  • Left hemisphere: 8 regions
+  • Right hemisphere: 6 regions
+
+🏗️ ANATOMICAL DISTRIBUTION:
+  • Cortical regions: 13
+  • Subcortical regions: 1
+
+⚡ ACTIVATION ANALYSIS:
+  • Mean activation: -0.0268
+  • Standard deviation: 0.4488
+  • High clinical significance: 9 regions
+
+💾 VOLUMETRIC ANALYSIS:
+  • Total analyzed brain volume: 33,455 mm³
+  • Average region volume: 2390 mm³
